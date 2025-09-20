@@ -13,7 +13,7 @@ export const useMovies = (searchQuery, setSelectedMovieID) => {
       try {
         setIsLoading(true);
         const res = await fetch(
-          `http://www.omdbapi.com/?apikey=${apiKey}&s=${searchQuery}`,
+          `https://www.omdbapi.com/?apikey=${apiKey}&s=${searchQuery}`,
           { signal: controller.signal }
         );
         const data = await res.json();
