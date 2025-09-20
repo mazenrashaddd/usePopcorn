@@ -51,7 +51,7 @@ const SelectedMovie = ({
     const getMovieDetails = async () => {
       setIsLoading(true);
       const data = await fetch(
-        `http://www.omdbapi.com/?apikey=${apiKey}&i=${movieID}`
+        `https://www.omdbapi.com/?apikey=${apiKey}&i=${movieID}`
       );
       const res = await data.json();
       setSelectedMovie(res);
