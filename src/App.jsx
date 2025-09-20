@@ -16,7 +16,7 @@ function App() {
 
   const [watched, setWatchedMovies] = useState(() => {
     const res = JSON.parse(localStorage.getItem("watched"));
-    return res;
+    return res ? res : [];
   });
   const [selectedMovieID, setSelectedMovieID] = useState(null);
 
