@@ -1,12 +1,24 @@
-# React + Vite
+# 🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app that lets you search for movies via the [OMDb API](http://www.omdbapi.com/), view details, and manage your own watched list with ratings and persistence using `localStorage`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔍 Search movies by title using OMDb API
+- 🎞️ View details of a selected movie (poster, year, runtime, IMDb rating, etc.)
+- ⭐ Rate movies yourself and save ratings
+- 📌 Watched list management – add/remove movies easily
+- 💾 Persistence – watched list is saved in `localStorage`
+- ⚡ Responsive UI built with React functional components & hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tech Stack
+
+- React 18 with Vite
+- Custom Hooks (e.g. `useMovies`)
+- OMDb API for movie data
+- `localStorage` for persistence
+- CSS / utility classes for styling
