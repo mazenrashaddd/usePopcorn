@@ -1,4 +1,4 @@
-# 🎬 Movie Explorer
+# 🎬 usePopcorn
 
 A React app that lets you search for movies via the [OMDb API](http://www.omdbapi.com/), view details, and manage your own watched list with ratings and persistence using `localStorage`.
 
